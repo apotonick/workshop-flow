@@ -28,8 +28,8 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 
-  gem "trailblazer-pro", path: "../trailblazer-pro"
-  gem "trailblazer-pro-rails", path: "../trailblazer-pro-rails"
+  # gem "trailblazer-pro", path: "../trailblazer-pro"
+  # gem "trailblazer-pro-rails", path: "../trailblazer-pro-rails"
   gem "rake"
   gem "minitest-line"
 end

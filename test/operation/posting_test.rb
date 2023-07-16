@@ -19,19 +19,19 @@ class OperationPostingTest_v1 < Minitest::Spec
       end
 
       def reformat(ctx, params:, **)
-        true
+
       end
 
       def create_slug(ctx, **)
-        true
+
       end
 
       def save(ctx, params:, **)
-        ctx[:model] = Posting.new
+
       end
 
       def notify(ctx, model:, **)
-        model.present?
+
       end
     end
   end

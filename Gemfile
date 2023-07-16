@@ -8,6 +8,9 @@ ruby "3.0.0"
 gem "actionview", "~> 7.0.4", ">= 7.0.4.3"
 gem "actionpack"
 gem "activerecord"
+gem "railties"
+
+gem "trailblazer-operation"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
@@ -27,6 +30,8 @@ group :development, :test do
 
   gem "trailblazer-pro", path: "../trailblazer-pro"
   gem "trailblazer-pro-rails", path: "../trailblazer-pro-rails"
+  gem "rake"
+  gem "minitest-line"
 end
 
 group :development do

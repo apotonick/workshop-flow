@@ -1,3 +1,19 @@
+GIT
+  remote: https://github.com/trailblazer/trailblazer-pro-rails.git
+  revision: 097c348f136ea87502327184f860688f431d74df
+  specs:
+    trailblazer-pro-rails (0.0.1)
+
+GIT
+  remote: https://github.com/trailblazer/trailblazer-pro.git
+  revision: 4b9d746f715f22e3d955a03c129806c332f60b9e
+  specs:
+    trailblazer-pro (0.0.1)
+      faraday
+      jwt
+      trailblazer-activity-dsl-linear (~> 1.2)
+      trailblazer-developer (>= 0.1.0, < 0.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -31,6 +47,10 @@ GEM
       irb (>= 1.5.0)
       reline (>= 0.3.1)
     erubi (1.12.0)
+    faraday (2.7.10)
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-net_http (3.0.2)
     hashie (5.0.0)
     hirb (0.7.3)
     i18n (1.14.1)
@@ -38,6 +58,7 @@ GEM
     io-console (0.6.0)
     irb (1.7.4)
       reline (>= 0.3.6)
+    jwt (2.7.1)
     loofah (2.21.3)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -71,6 +92,7 @@ GEM
     rake (13.0.6)
     reline (0.3.6)
       io-console (~> 0.5)
+    ruby2_keywords (0.0.5)
     sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -115,6 +137,8 @@ DEPENDENCIES
   sprockets-rails
   sqlite3 (~> 1.4)
   trailblazer-operation
+  trailblazer-pro!
+  trailblazer-pro-rails!
   tzinfo-data
 
 RUBY VERSION

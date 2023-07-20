@@ -30,6 +30,8 @@ group :development, :test do
 
   # gem "trailblazer-pro", path: "../trailblazer-pro"
   # gem "trailblazer-pro-rails", path: "../trailblazer-pro-rails"
+  gem "trailblazer-pro", github: "trailblazer/trailblazer-pro"
+  gem "trailblazer-pro-rails", github: "trailblazer/trailblazer-pro-rails"
   gem "rake"
   gem "minitest-line"
 end
